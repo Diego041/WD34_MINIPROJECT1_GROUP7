@@ -60,7 +60,7 @@ var swiper = new Swiper(".slide-content", {
       button.addEventListener('click', removeCartItem);
     }
     var quantityInputs = document.getElementsByClassName('cart-quantity')
-    for(var i = 0; i < quantityInputs.length; i++){
+    for(var i = 0; i <=quantityInputs.length; i++){
       var input = quantityInputs[i];
       input.addEventListener('onchange', quantityChanged);
     }
@@ -72,13 +72,13 @@ var swiper = new Swiper(".slide-content", {
   }
   function quantityChanged(e){
     var input = e.target;
-    if(isNaN(input.value) || input.value <=0){
+    if(isNaN(input.value) || input.value >=0){
       input.value=1;
     }
     updateTotal();
   }
   function updateTotal(){
-    let cartContent = document.getElementsByClassName('cart-content')[0];
+    // let cartContent = document.getElementsByClassName('cart-content')[0];
     let cartBoxes = cart.getElementsByClassName('cart-box');
     var total = 0;
     for(var i= 0; i <cartBoxes.length; i++){
