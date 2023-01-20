@@ -223,11 +223,11 @@ button{
 .grid-img-overlay{
   position: absolute;
   background-color: rgba(0, 0, 0, .7);
-  height: 0;
+  height: 100%;
   width: 100%;
-  opacity: 0;
+  opacity: 1;
 }
-button.btn.border-light.text-light:hover{
+a.btn.border-light.text-light:hover{
   background-color: #f3f5f5;
   color: #000 !important;
   transition: .4s ease-in-out;

@@ -1,6 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+@media (max-width:992px) {
+    #prodetails> .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #prodetails> .container{
+        padding: 0 !important;
+    }
+    div#prodetails>.container{
+        padding: 0 !important;
+    }
+    #prodetails .single-pro-img{
+        width: 100%;
+    
+    }
+    
+}
+
 .single-pro-img img{
     width: 100%;
+    object-fit: cover;
 }
 #prodetails> .container{
     padding-top: 9rem !important;
@@ -26,7 +47,7 @@
     cursor: pointer;
 }
 #prodetails>.container>.single-pro-details{
-  width: 50%;
+  max-width: 50%;
   padding-top: 30px;
 }
 #prodetails>.container>.single-pro-details>h4{

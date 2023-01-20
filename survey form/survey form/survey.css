@@ -1,9 +1,48 @@
 body{
     max-width: 100%;
     overflow-x: hidden;
-    text-align: center;
-    font-size: 100%;
     
+}
+.big-box{
+    height: 500px;
+    margin: 150px 0;
+    font-size: 2rem;
+}
+.button-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 250px;
+    row-gap: 1.5rem; 
+}
+.button-box .btn{
+    width: 200px;
+    background-color: #40494a;
+    border: 1px solid ;
+    color: #f3f5f5;
+    width: 50vh;
+    
+}
+.text-box,.img-box{
+    width: 50%;
+    max-height: 600px;
+}
+.text-box p{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+}
+.text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.img-box img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
 }
 .main-container{
     height: 500px;
@@ -59,6 +98,9 @@ body{
     html{
         font-size: 55%;
     }
-    
+    .big-box{
+        height: 350px;
+        margin: 50px 0;
+    }
 
 }
