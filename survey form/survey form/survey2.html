@@ -16,7 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="survey.css">
     <!-- ADD THIS LINE -->
     <style>
       html {
@@ -42,7 +42,7 @@
   <body>
     <div class="container-fluid">
       <div
-        class="col-10 m-5 p-5 d-flex mx-auto"
+        class="col-10 d-flex"
         style="
           align-items: center;
           text-align: center;
@@ -53,7 +53,7 @@
         "
         id="first-1a"
       >
-        <p class="fs-1 mt-5 pt-5">
+        <p class="fs-1">
           <strong style="color: rgb(36, 143, 36)">Did you know?</strong> By
           determining your foot type and getting the right shoes will keep you
           safe and making sure your body uses ground reaction forces effectively
@@ -90,7 +90,7 @@
     </div>
 
     <div
-      class="theFoot m-5 p-5 d-flex"
+      class="theFoot d-flex"
       style="
         height: 35rem;
         text-align: center;
@@ -105,25 +105,14 @@
     </div>
 
     <!-- FOOT TYPES -->
-    <div class="container-fluid pt-5 mt-5" id="footTypes">
-      <div class="container d-flex gap-5" style="justify-content: space-around">
-        <div
-          class="contentright d-flex mx-auto"
-          style="width: 35rem; justify-content: center"
-        >
+    <!-- first -->
+    <section class="foot-container">
+      <div class="container-fluid row main-container" >
+        <div class="img-container col-md-12 col-lg-6">
           <img src="./img/flat.png" alt="Flat Foot" />
         </div>
-
-        <div
-          class="contentleft d-flex"
-          style="
-            width: 35rem;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-          "
-        >
-          <p class="fs-3">
+        <div class="text-container col-md-12 col-lg-6">
+          <p class="">
             Your heel cord is curving towards the inside of your ankle (medial).
             And there’s a small indent on the medial side of your heel.
             <br />
@@ -136,113 +125,85 @@
             <br />
             The instability of this foot position feeds further instability up
             the chain. It leads to less power and a host of potential injuries.
+          </p>  
+        </div>        
+          
+      </div>
+      <!-- second -->
+        <div class="container-fluid main-container">
+          <div class="row">
+            <div class="text-container-2 col-md-12 col-lg-6">
+              <p>
+                Your heel cord curves towards the outside of your ankle (lateral).
+                And there’s a small indent on the outer aspect of the heel.
+                <br />
+                <br />
+                Having a
+                <strong style="color: rgb(36, 143, 36)">high arch</strong> means
+                that you tend to put more weight on the outside of your foot
+                (inversion). This creates a rigidity in the STJ.
+                <br />
+                <br />
+                So the ground reaction forces get trapped in the body instead of
+                released into your movement. Again, the result is a limit in your
+                power and a risk increase in impact-related injuries.
+              </p>
+            </div>
+            <div class="img-container col-md-12 col-lg-6">
+              <img src="./img/high arch.png" alt="High Arch" />
+            </div>
+          </div>
+          
+        </div>
+  
+         <!-- third -->
+        <div class="container-fluid main-container">
+          <div class="row">
+            <div class="img-container col-md-12 col-lg-6">
+              <img src="./img/neutral.png" alt="neutral/normal" />
+            </div>
+            <div class="text-container col-md-12 col-lg-6">
+              <p>
+                Your heel cord forms a straight, vertical line. And there are no
+                concave indents visible on either side of your heel.
+                <br /><br />
+                A
+                <strong style="color: rgb(36, 143, 36)">neutral/normal</strong> foot
+                means that your STJ starts in a centered position… the “sweet spot”.
+                This allows your body to best load and unload ground reaction forces
+                and gravity. So you can harness this free energy into into elastic
+                power to move in any direction. <br /><br />
+                If you’re missing that spring in your step, it may be more likely
+                that you have one of the other two types.
+              </p>
+            </div>
+          </div>
+          
+            
+        </div>
+        <!-- fourth -->
+       
+        
+      <!-- FOOT TYPES -->
+  
+  
+      <div class="container-fluid">
+        <div class="main-container p-5">
+          <p class>
+            <strong style="color: rgb(36, 143, 36)">Know your foot type with these easy steps -</strong> all you
+            need is a camera and someone to snap a photo of your barefoot from
+            behind. Place the camera perpendicular on the ground so it’s level and
+            vertical.
+            <br />
+            <br />
+            Stand with your feet hip distance apart and the heels in a straight
+            line behind the toes and take your photo. Then, examine each foot’s
+            heel cord (Achilles tendon). This is the vertical connective tissue
+            that leads from your heel (calcaneus) into your lower leg.
           </p>
         </div>
       </div>
-
-      <div class="container d-flex gap-5" style="justify-content: space-around">
-        <div
-          class="contentleft d-flex"
-          style="
-            width: 35rem;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-          "
-        >
-          <p class="fs-3">
-            Your heel cord curves towards the outside of your ankle (lateral).
-            And there’s a small indent on the outer aspect of the heel.
-            <br />
-            <br />
-            Having a
-            <strong style="color: rgb(36, 143, 36)">high arch</strong> means
-            that you tend to put more weight on the outside of your foot
-            (inversion). This creates a rigidity in the STJ.
-            <br />
-            <br />
-            So the ground reaction forces get trapped in the body instead of
-            released into your movement. Again, the result is a limit in your
-            power and a risk increase in impact-related injuries.
-          </p>
-        </div>
-
-        <div
-          class="contentright d-flex mx-auto"
-          style="width: 35rem; justify-content: center"
-        >
-          <img src="./img/high arch.png" alt="High Arch" />
-        </div>
-      </div>
-
-      <div class="container d-flex gap-5" style="justify-content: space-around">
-        <div
-          class="contentright d-flex mx-auto"
-          style="width: 35rem; justify-content: center"
-        >
-          <img src="./img/neutral.png" alt="neutral/normal" />
-        </div>
-
-        <div
-          class="contentleft d-flex"
-          style="
-            width: 35rem;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-          "
-        >
-          <p class="fs-3">
-            Your heel cord forms a straight, vertical line. And there are no
-            concave indents visible on either side of your heel.
-            <br /><br />
-            A
-            <strong style="color: rgb(36, 143, 36)">neutral/normal</strong> foot
-            means that your STJ starts in a centered position… the “sweet spot”.
-            This allows your body to best load and unload ground reaction forces
-            and gravity. So you can harness this free energy into into elastic
-            power to move in any direction. <br /><br />
-            If you’re missing that spring in your step, it may be more likely
-            that you have one of the other two types.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!-- FOOT TYPES -->
-
-    <div
-      class="line d-flex mx-auto"
-      style="height: 3px; background: black; width: 45rem;
-      margin-top: 5rem;"
-    ></div>
-
-    <div class="container-fluid">
-      <div
-        class="col-10 m-5 p-5 d-flex mx-auto"
-        style="
-          align-items: center;
-          text-align: center;
-          position: relative;
-          justify-content: center;
-          margin: auto;
-          height: 35rem;
-        "
-        id="first-1a"
-      >
-        <p class="fs-2 mt-5 pt-5">
-          <strong style="color: rgb(36, 143, 36)">Know your foot type with these easy steps -</strong> all you
-          need is a camera and someone to snap a photo of your barefoot from
-          behind. Place the camera perpendicular on the ground so it’s level and
-          vertical.
-          <br />
-          <br />
-          Stand with your feet hip distance apart and the heels in a straight
-          line behind the toes and take your photo. Then, examine each foot’s
-          heel cord (Achilles tendon). This is the vertical connective tissue
-          that leads from your heel (calcaneus) into your lower leg.
-        </p>
-      </div>
-    </div>
+    </section>
 
      <div
       class="line d-flex mx-auto"
@@ -266,7 +227,7 @@
     </div>
 
 
-    <div class="footselection d-flex mx-auto"
+    <div class="footselection d-flex"
     style="flex-direction: column;
     width: 45rem;
     height: 15rem;
@@ -299,7 +260,7 @@
 
     <div class="footer">
       <div
-        class="containter pt-3"
+        class="containter"
         style="
           display: flex;
           flex-direction: row;

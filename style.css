@@ -2,7 +2,9 @@
   box-sizing: border-box !important;
   font-family: "Space Grotesk", sans-serif !important;
   transition: all .4s linear;
+
 }
+
 html, body {
   max-width: 100%;
   overflow-x: hidden;
