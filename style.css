@@ -484,6 +484,16 @@ a.btn.border-light.text-light:hover{
   margin-bottom: 0;
   border: 0;
 }
+.col-lg-2>h6{
+  font-size: 1.1rem;
+  line-height: 25px;
+  text-decoration: underline;
+}
+a.link{
+  font-weight: lighter;
+  font-size: .86rem;
+  line-height: 20px;
+}
 
 /* ===================================Fooooooooter=================================== */
 .mobile-view{
