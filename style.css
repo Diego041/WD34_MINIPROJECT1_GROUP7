@@ -43,7 +43,7 @@ ul{
   opacity: 1;
   cursor: pointer;
   right: 55px;
-  bottom: 10px;
+  bottom: 0px;
   z-index: 2;
   flex-direction: column;
   min-height: 100px;
@@ -287,6 +287,11 @@ a.btn.border-light.text-light:hover{
 }
 /* Visit US start++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /* Banner  call to action start+================================================================================================== */
+.banner-men{
+  background-image: url("https://images.pexels.com/photos/1456706/pexels-photo-1456706.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") !important;
+  
+
+}
 #banner {
   display: flex;
   flex-direction: column;
@@ -300,7 +305,7 @@ a.btn.border-light.text-light:hover{
   height: 40vh;
   width: 100%;
   padding: 0 !important;
-  color: #fff;
+  color: #fff !important;
 }
 
 #banner h4{
