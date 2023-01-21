@@ -292,6 +292,11 @@ a.btn.border-light.text-light:hover{
   
 
 }
+.small-p{
+  font-size: .89rem;
+  line-height: 24px;
+  font-weight: lighter;
+}
 #banner {
   display: flex;
   flex-direction: column;
