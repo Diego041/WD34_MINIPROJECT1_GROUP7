@@ -297,14 +297,25 @@ a.btn.border-light.text-light:hover{
   margin-top: 15px;
   color: white;
 }
-.survey-link:hover{
-  color: #728284;
+
+.futtaype a{
+  text-decoration: none;
+  color: #f3f5f5;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.futtaype:hover{
+.futtaype a span{
+  margin-right: 10px;
+}
+.futtaype a:hover{
   color:#728284;
+  transition: color .4s linear !important;
 }
 .futtaype:hover a svg{
   color: #728284 !important;
+  transition: color .4s linear;
 }
 .small-p{
   font-size: .89rem;
