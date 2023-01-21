@@ -628,7 +628,7 @@ background-color: #79817f;
     padding: 15px;
     margin-top: 1rem;
     display: inline-block;
-    font-family: 'Poppins', sans-serif !important;
+    font-family: "Space Grotesk", sans-serif;
     text-decoration: none;
     font-weight: bolder;
     color: #f3f5f5;
@@ -649,3 +649,211 @@ background-color: #79817f;
 	padding-right: 0!important;
 	margin: 0!important;
 }
+/* form contact us */
+
+
+.section-title1 {
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Space Grotesk", sans-serif;
+    margin: 0 0 35px;
+    color: #f3f5f5;
+  }
+  
+  .sec-pad {
+    padding: 30px 0 0;
+    margin: 50px 0;
+    min-height: 80vh;
+  }
+  
+  .contact-sec {
+    align-items: center;
+    display: flex;
+    background-color: #79817f;
+  }
+  
+  .contact-sec .contact-ul li,
+  .contact-ul b {
+    font-size: 20px;
+    margin: 10px 0;
+    font-family: "Space Grotesk", sans-serif;
+    word-wrap: break-word;
+  }
+  
+  .contact-sec .contact-ul i {
+    font-size: 18px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  .contact-detail a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .contact-sec .contact-ul li b:hover {
+    color: #f3f5f5;
+  }
+  
+  .contact-sec .contact-ul li .bx-current-location {
+    color: #f3f5f5;
+    border: 2px solid #f3f5f5;
+  }
+  
+  .contact-sec .contact-ul li .bx-phone {
+    color: #f3f5f5;
+    border: 2px solid #f3f5f5;
+  }
+  
+  .contact-sec .contact-ul li .bxs-chat {
+    color: #f3f5f5;
+    border: 2px solid #f3f5f5;
+  }
+  
+  .contact-detail span {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+  }
+  .contact-detail span a {
+    font-size: 20px;
+    padding: 6px 12px;
+    color: #000;
+    border-radius: 50%;
+    margin: 0px 5px;
+  }
+  .contact-detail span .fb {
+    color: #f3f5f5;
+    border: 2px solid #f3f5f5;
+  }
+  .contact-detail span .fb:hover {
+    color:  #40494a;
+    border: 2px solid  #40494a;
+  }
+  
+  .contact-detail span .insta {
+    color: #f3f5f5;
+    border: 2px solid #f3f5f5;
+  }
+  .contact-detail span .insta:hover {
+    color: #40494a;
+    border: 2px solid  #40494a;
+  }
+  
+  .contact-detail span .twitter {
+    color: #f3f5f5;
+    border: 2px solid #f3f5f5;
+  }
+  .contact-detail span .twitter:hover {
+    color: #40494a;
+    background-color: #40494a;
+  }
+  
+  form.contFrm {
+    max-width: 396px;
+    margin: auto;
+  }
+  
+  .inptFld {
+    width: 100%;
+    height: 50px;
+    border: 0;
+    margin: 0 0 10px;
+    border-radius: 8px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #000;
+  }
+  
+  .inptFld:focus {
+    outline: 1px solid #000;
+  }
+  
+  .contFrm textarea {
+    height: 75px;
+    padding-top: 5px;
+  }
+  .inptBtn {
+    height: 50px;
+    border: 2px solid #f3f5f5;
+    background: transparent;
+    font-size: 14px;
+    color: #fff;
+    margin: auto;
+    letter-spacing: 1px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+  }
+  .inptBtn:hover{
+    background-color: #f3f5f5;
+    color: #79817f;
+  }
+  
+  /* Responcive css Start */
+  
+  @media (max-width: 991px) {
+    .sec-pad {
+      padding: 20px 0 0px;
+    }
+  
+    .contact-sec .contact-ul li,
+    .contact-ul b {
+      font-size: 18px;
+    }
+  
+    .contact-sec .contact-ul i {
+      font-size: 14px;
+      padding: 6px;
+      margin-right: 6px;
+    }
+  
+    .inptFld {
+      height: 40px;
+      margin: 0 0 10px;
+      padding: 0 14px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .contact-detail span {
+      width: auto;
+    }
+    .contact-detail span a {
+      font-size: 18px;
+      padding: 5px 10px;
+      color: #000;
+      border-radius: 50%;
+      margin: 0px 5px 20px;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .section-title1 {
+      font-size: 26px;
+      font-weight: 500;
+    }
+    .contact-sec {
+      border-radius: 10% 10% 0% 0% / 5% 5% 0% 0%;
+    }
+  
+    .contact-sec .contact-ul i {
+      border: none;
+    }
+    .inptFld {
+      height: 36px;
+      margin: 0 0 8px;
+      padding: 0 14px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact-sec .contact-ul li,
+    .contact-ul b {
+      font-size: 16px;
+    }
+  }
+  
