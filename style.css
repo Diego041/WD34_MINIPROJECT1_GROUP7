@@ -300,6 +300,12 @@ a.btn.border-light.text-light:hover{
 .survey-link:hover{
   color: #728284;
 }
+.futtaype:hover{
+  color:#728284;
+}
+.futtaype:hover a svg{
+  color: #728284 !important;
+}
 .small-p{
   font-size: .89rem;
   line-height: 24px;
