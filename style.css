@@ -34,6 +34,46 @@ ul{
   float: left;
 }
 /* Home section =========================================================================== */
+.survey-button-container{
+  position: fixed;
+  font-size: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 1;
+  cursor: pointer;
+  right: 55px;
+  bottom: 10px;
+  z-index: 2;
+  flex-direction: column;
+  min-height: 100px;
+}
+
+.survey-button{
+  color: #f3f5f5;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #728284;
+  position: absolute;
+  box-shadow: -4px 0 4px rgba(40, 37, 37, 0.73);
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  text-decoration: none;
+}
+/* .survey-button-container .survey-button:hover{
+  transform: rotate(360deg);
+} */
+.survey-button-container:hover{
+  transform: translateY(-5px);
+  transition: all .1s linear;
+}
+.survey-button-container:hover i{
+  transform: rotate(360deg);
+  transition: all .7s linear;
+}
+
 #home{
   margin-top: 4.3rem;
   position: relative;
